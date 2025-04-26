@@ -1,10 +1,22 @@
-Conocimientos en programación web (HTML, CSS, JS y PHP) (25 puntos)
-Ejercicio práctico:
-• Crea una página HTML con:
-o Un formulario de contacto funcional (nombre, correo, mensaje).
-o Validación en JavaScript.
-o Estilos CSS personalizados que sigan buenas prácticas de diseño.
-o Opcional: Procesamiento del formulario con PHP (extra puntos).
+# Shark Challenge
 
-Entrega esperada:
-• Archivos en zip o enlace a repositorio (GitHub o similar).
+Proyecto de prueba técnica para Agencia Internacional Shark.
+
+## Tecnologías usadas
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+
+## Descripción
+Formulario de registro de usuarios, diseñado con enfoque en UX/UI.  
+Incluye campos de nombre, email, contraseña y mensaje.
+
+## Instalación
+1. Clona el repositorio: `git clone https://github.com/JuanJose0927/sharkchallenge.git`
+2. Coloca los archivos en un servidor local (XAMPP, MAMP, etc).
+3. Accede a `index.html` o `index.php` para ver el formulario.
+
+---
+
+Desarrollado por **Juan José Arbeláez Peña** - Abril 2025
