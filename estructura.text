@@ -1,0 +1,37 @@
+Menú Principal
+├── Inicio
+├── Programas Académicos
+│   ├── Pregrado
+│   ├── Posgrado
+│   └── Educación Continua
+├── Admisiones
+│   ├── Procedimiento
+│   ├── Requisitos
+│   └── Fechas
+├── Noticias
+│   ├── Comunicados
+│   └── Boletines
+├── Eventos
+│   ├── Académicos
+│   └── Culturales
+├── Vida Estudiantil
+│   ├── Bienestar
+│   └── Deportes
+├── Biblioteca
+├── Plataforma Virtual
+└── Contacto
+
+
+Categorías
+- Noticias
+- Eventos
+- Información Académica
+- Servicios Estudiantiles
+- Recursos Biblioteca
+
+Módulos
+- Búsqueda
+- Noticias recientes
+- Calendario
+- Redes sociales
+- Formulario de contacto
