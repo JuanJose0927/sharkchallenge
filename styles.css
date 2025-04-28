@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+:root {
+    --primary-color: #f3f4f6;
+    --secondary-color: #2d3748;
+    --tertiary-color: #ffffff;
+    --quaternary-color: #3182ce;
+    --title-color: #4a5568;
+    --box-shadow-button: 3px 2px 2px 3px #4a5568;
+    --cursor: pointer;
+    --font: 'Poppins', sans-serif;
+    --display1: flex;
+}
+
 /*GENERAL STYLES*/
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f3f4f6;
-    display: flex;
+    background: var(--primary-color);
+    display: var(--display1);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -17,14 +30,14 @@ body {
 .title {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #2d3748;
+    color: var(--secondary-color);
     text-align: center;
 }
 
 /*FORM STYLES*/
 
 .form {
-    background: #ffffff;
+    background: var(--tertiary-color);
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
@@ -33,7 +46,7 @@ body {
 }
 
 .form_register {
-    display: flex;
+    display: var(--display1);
     flex-direction: column;
     flex-wrap: wrap;
     height: 320px;
@@ -41,9 +54,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .form_register_title {
     font-size: 1.5rem;
-    color: #4a5568;
+    color: var(--title-color);
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -61,44 +75,42 @@ body {
     border-radius: 0.5rem;
     font-size: 1rem;
     outline: none;
-    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .form_register_input:focus {
-    border-color: #3182ce;
+    border-color: var(--quaternary-color);
     box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.4);
 }
 
 .form_register_button {
-    background-color: #3182ce;
+    background-color: var(--quaternary-color);
     color: white;
     padding: 0.75rem 1rem;
     font-size: 1rem;
     font-weight: 600;
     border: none;
     border-radius: 0.5rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    cursor: var(--cursor);
 }
 
 .form_register_button:hover {
     font-weight: bold;
     background-color: #1b2836;
-    box-shadow: 3px 2px 2px 3px #4a5568;
+    box-shadow: 3px 2px 2px 3px var(--title-color);
 }
 
 
 /* PHP INFO STYLES */
 
 .container_info_form {
-    display: flex;
+    display: var(--display1);
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     max-width: 600px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    font-family: var(--font);
+    background-color: var(--tertiary-color);
     border-radius: 30px;
-    box-shadow: 2px 3px 2px 3px gray;
+    box-shadow: 2px 3px 2px 3px var(--title-color);
 }
